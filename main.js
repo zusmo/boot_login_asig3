@@ -1,5 +1,5 @@
 class user{
-    obtener(){
+    obtain (){
         var email = document.getElementById("email").value;
         var password = document.getElementById("password").value;
 
