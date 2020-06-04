@@ -1,0 +1,38 @@
+body{
+    background-image: url(../img/sunset2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.formulario{
+    background: rgba(0, 0, 0, .1);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    
+}
+.form-control{
+    background: rgba(0, 0, 0, .2);
+    border-style: none;
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+}
+.form-control:focus{
+    background: none;
+    outline: none;
+    box-shadow: none;
+}
+.form-control::placeholder{
+    color: white;
+}
+.submit{
+    background: #222A3F;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    transition: 0.5s ease-out;
+}
+.submit:hover{
+    color: red;
+}
